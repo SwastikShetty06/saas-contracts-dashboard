@@ -8,6 +8,10 @@
 
 This is a single-page application (SPA) built with React that simulates a SaaS contracts management dashboard. It allows users to log in, view a filterable list of contracts, and inspect detailed insights for each contract.
 
+## Deployment
+
+The application is deployed on Netlify and can be accessed here: [https://saas-contracts-dashboard-swastik.netlify.app/login](https://saas-contracts-dashboard-swastik.netlify.app/login)
+
 ## Tech Stack Choices
 
 *   **Framework:** Vite + React was chosen for its fast development server and optimized build process.
