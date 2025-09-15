@@ -75,21 +75,7 @@ const ContractDetailPage = () => {
             </div>
           </div>
 
-          {/* AI Insights */}
-          <div className="bg-white p-6 rounded-xl shadow-lg">
-            <h2 className="text-2xl font-bold text-slate-700 mb-4">AI Insights</h2>
-            <ul className="space-y-3">
-              {contract.insights.map((insight, index) => (
-                <li key={index} className="flex items-start p-3 bg-slate-50 rounded-lg">
-                  <FiAlertTriangle className={`mr-3 mt-1 ${insight.risk === 'High' ? 'text-red-500' : 'text-yellow-500'}`} />
-                  <div>
-                    <p className="font-semibold text-slate-800">{insight.risk} Risk</p>
-                    <p className="text-slate-600 text-sm">{insight.message}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
         </div>
       </div>
     );
